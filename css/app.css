@@ -23,13 +23,20 @@ body {
 }
 
 .heading img {
-    width: 20%;
     border-radius: 55px;
+    margin: 0 auto;
 }
 
 .btn-rating {
-    width: 32%;
+    width: 204px;
     margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .btn-rating {
+        width: 35px;
+        margin: 0 auto;
+    }
 }
 
 .btn-rating .btn {
