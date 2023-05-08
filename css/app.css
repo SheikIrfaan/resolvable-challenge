@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('fonts/Gilroy-Regular.woff');
+}
+
+body {
+    background: #12B76A;
+    font-family: Gilroy;
+}
+
+.container {
+    background: #FFF;
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.heading {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.heading img {
+    width: 20%;
+    border-radius: 55px;
+}
+
+.btn-rating {
+    width: 32%;
+    margin: 0 auto;
+}
+
+.btn-rating .btn {
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.btn-rating .btn:hover {
+    border: 1px solid #12B76A;
+    color: #12B76A;
+    background: #FFF;
+}
+
+.btn-rating .btn:focus {
+    background: #12B76A;
+    color: #FFF;
+    border: 0;
+}
+
+.btn-rating .btn:last-of-type {
+    margin-right: 0;
+}
+
+.comment {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.comment textarea {
+    width: 100%;
+}
+
+.comment button {
+    border-radius: 15px;
+    border-color: #FFF;
+    background: #00BD84;
+    color: #FFF;
+}
+
+.comment button:hover {
+    border-color: #FFF;
+    background: #009D6E;
+    color: #FFF;
+}
+
+.comment button:focus {
+    border-color: #FFF;
+    background: #007E58;
+    color: #FFF;
+}
